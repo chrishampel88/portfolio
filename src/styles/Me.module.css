@@ -16,6 +16,12 @@ h2{
     h2{
         font-size: 1.3rem;
     }
+    .section1{
+        height: 120vh;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        color: aliceblue;
+    }
 }
 .a{
     margin-top: 1rem;
