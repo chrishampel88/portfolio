@@ -1,0 +1,32 @@
+.navContainer {
+	display: flex;
+	justify-content: space-between;
+}
+.navContainer .navTitle{
+	font-size: 1.5rem;
+}
+.meAuto{
+	margin: 0 !important;
+}
+
+@media all and (max-width: 800px){
+
+	.navContainer{
+		display: inline-block;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.navContainer .navbar-nav{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+    .meAuto{
+            flex-direction: row;
+    }
+    .link{
+        margin-left: 1.5rem;
+    }
+}

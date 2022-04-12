@@ -1,0 +1,12 @@
+.section2{
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color:rgb(11, 0, 109)
+}
+@media (max-width: 800px) {
+   .section2{
+       height: 140vh;
+   }
+
+}

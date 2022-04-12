@@ -3,7 +3,7 @@ import Navbarh from "./Navbar.jsx";
 import Works  from "./Works.jsx";
 import Skill from "./Skill.jsx";
 import Me from "./Me.jsx";
-import style from "./Home.module.css";
+import style from "../styles/Home.module.css";
 import Contact from "./Contact.jsx";
 
 export default function Home() {
@@ -19,6 +19,7 @@ export default function Home() {
                 <Contact />
             </div>
     )
+    
 
 }
 

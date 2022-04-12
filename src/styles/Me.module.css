@@ -5,17 +5,18 @@
     color: aliceblue;
 }
 .sec1{
-    display: grid;
     grid-template-columns: repeat(2, 3fr);
 }
-.text{
-    margin-top: 150px;
-    margin-left: 50px;
+h2{
+    margin-top: 2rem;
     color:rgb(235, 235, 235)
 }
-.img{
-    margin-top: 100px;
-    margin-left: 50px;
-    width: 500px;
 
+@media (max-width: 985px) {
+    h2{
+        font-size: 1.3rem;
+    }
+}
+.a{
+    margin-top: 1rem;
 }

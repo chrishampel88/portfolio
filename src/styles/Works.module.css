@@ -1,5 +1,8 @@
+h2{
+    padding-top: 3rem;
+}
 .section3{
-    height: 100vh;
+    height: 95vh;
     text-align: center;
     background-color: rgb(0, 0, 0);
     color: aliceblue;
@@ -10,12 +13,14 @@
     align-items: flex-start;
 
 }
-.works{
-    margin: 5px;
-    border: 2px solid white;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: flex-start;
-    
-}
 
+
+@media (max-width: 871px) {
+    .column{
+        display: block;
+    }
+    .section3{
+        height: 128vh;
+    }
+ 
+ }
